@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deploy | FredieTech Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">FredieTech</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="deploy.html">Deploy</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="docs.html">Docs</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li><a href="payment.html">Payment</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Deployment Section -->
+  <section class="deploy">
+    <div class="container">
+      <h2>Deploy Your Repository</h2>
+      <p>Connect your Git repository and deploy your app with a single click.</p>
+      <form id="deployForm">
+        <input type="url" name="repositoryUrl" placeholder="Repository URL" required>
+        <input type="text" name="branch" placeholder="Branch (default: main)" value="main">
+        <button type="submit" class="btn btn-primary">Deploy Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 FredieTech. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
