@@ -1,0 +1,17 @@
+{
+  "name": "freditech-platform",
+  "version": "1.0.0",
+  "description": "FredieTech Cloud Platform – A Heroku-like service for deploying repositories and projects with full payment integration.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "FredieTech",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3"
+  }
+}
