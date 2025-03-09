@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment | FredieTech Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">FredieTech</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="deploy.html">Deploy</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="docs.html">Docs</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li><a href="payment.html">Payment</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Payment Section -->
+  <section class="payment">
+    <div class="container">
+      <h2>Secure Payment Options</h2>
+      <p>
+        Choose your preferred payment method. You can pay using:
+        <br>
+        <strong>Mobile Money:</strong> Halotel (Tanzania: +255620814108), Vodacom (Tanzania: +255764182801), Safaricom (Kenya)
+        <br>
+        <strong>Bank Transfer</strong> or <strong>Visa Card</strong>.
+      </p>
+      <form id="paymentForm">
+        <select name="method" required>
+          <option value="">Select Payment Method</option>
+          <option value="mpesa">Mobile Money - M-PESA (Safaricom Kenya)</option>
+          <option value="vodacom">Mobile Money - Vodacom (Tanzania)</option>
+          <option value="halotel">Mobile Money - Halotel (Tanzania)</option>
+          <option value="bank">Bank Transfer</option>
+          <option value="visa">Visa Card</option>
+        </select>
+        <input type="text" name="mobileNumber" placeholder="Mobile Number (if applicable)">
+        <input type="text" name="bankDetails" placeholder="Bank Account Details (if applicable)">
+        <input type="text" name="cardDetails" placeholder="Visa Card Number (if applicable)">
+        <input type="number" name="amount" placeholder="Amount" required>
+        <button type="submit" class="btn btn-primary">Submit Payment</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 FredieTech. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
